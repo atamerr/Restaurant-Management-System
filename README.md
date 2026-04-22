@@ -38,15 +38,7 @@ The system strictly adheres to **Object-Oriented Programming** principles to ens
 
 ---
 
-```bash
-# Clone the repository
-git clone [https://github.com/YourUsername/Restaurant-System.git](https://github.com/YourUsername/Restaurant-System.git)
 
-# Navigate to the project directory
-cd Restaurant-System
-
-# Compile the source code
-javac Main.java
 
 # Run the application
 java Main
