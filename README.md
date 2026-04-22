@@ -1,39 +1,38 @@
-# Restaurant Management System 🍽️
+# 🍽️ Restaurant Management System
+> A clean, modular Java implementation for managing restaurant operations, developed with modern Software Engineering principles.
 
-A robust software solution designed to streamline restaurant operations, manage user roles, and handle reservation logistics through a modular Java-based architecture.
-
-## 🚀 About the Project
-This system focuses on automating core restaurant functionalities, ensuring a seamless flow between administrative tasks and customer services. The project emphasizes clean code principles and a well-structured Class-based hierarchy to ensure scalability and maintainability.
-
-## 🛠️ Key Features
-- **Role-Based Access Control:** Distinct functionalities for Admins, Users, and Guests.
-- **Meal Management:** Dynamic handling of menu items and meal categories.
-- **Reservation & Table Tracking:** Efficient management of table availability and guest bookings.
-- **Architectural Integrity:** Developed with a focus on UML-defined class relations and system modularity.
-
-## 👥 Collaborators & Contributions
-The project was developed through a collaborative effort, with responsibilities divided as follows:
-
-### **Ahmed Tamer**
-* **Role:** Core Architecture & Reservation Logic
-* **Modules:** `Class Reservation`, `Admin (Meals)`, `Class Meals`, `Main`
-
-### **Zayd Ali**
-* **Role:** Administrative User & Meal Management
-* **Modules:** `Admin (Meals)`, `Admin (User)`
-
-### **Abdulrahman Elbaiti**
-* **Role:** Table Logistics & Guest Services
-* **Modules:** `Class Guest`, `Class Table`, `Admin (Table)`
-
-### **Omar Ahmed**
-* **Role:** User Interface & Reception Handling
-* **Modules:** `User`, `Meals`, `Reception`
-
-## 💻 Tech Stack
-* **Language:** Java
-* **Paradigm:** Object-Oriented Programming (OOP)
-* **Architecture:** Modular System Design
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Software Engineering](https://img.shields.io/badge/Project-Software_Engineering-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
-*This repository is maintained as part of a Software Engineering academic project to demonstrate collaborative development and system design.*
+
+## 📖 Overview
+This repository contains a **Restaurant Management System** designed to handle complex workflows including user authentication, meal management, and table reservations. The project focuses on translating UML architectural designs into functional, clean Java code.
+
+## 🚀 Key Features
+* **Multi-Role Access:** Dedicated modules for Admins, Users, and Guests.
+* **Meal & Menu Control:** Full management of restaurant offerings.
+* **Reservation Engine:** Efficient logic for table booking and guest tracking.
+* **Modular Design:** High-quality class hierarchy for easy maintenance.
+
+---
+
+## 👥 Engineering Team (Collaborators)
+Each member focused on a specific domain of the system to ensure specialized development and modularity:
+
+| Collaborator | Technical Contribution | Modules |
+| :--- | :--- | :--- |
+| **Ahmed Tamer** | **Architecture Lead** | `Main`, `Reservation`, `Admin (Meals)`, `Meals` |
+| **Zayd Ali** | **User Management** | `Admin (User)`, `Admin (Meals)` |
+| **Abdulrahman Elbaiti** | **Logistics Manager** | `Table`, `Guest`, `Admin (Table)` |
+| **Omar Ahmed** | **Operations Service** | `User`, `Meals`, `Reception` |
+
+---
+
+## 🛠️ Tech Stack & Concepts
+* **Language:** Java (JDK 17+)
+* **Concepts:** Object-Oriented Programming (OOP), Data Abstraction, Encapsulation.
+* **Documentation:** UML Diagram Based Architecture.
+
+---
