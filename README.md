@@ -36,9 +36,5 @@ The system strictly adheres to **Object-Oriented Programming** principles to ens
 * **Abstraction:** Complex internal logic is hidden behind simplified interfaces for handling reservations and administrative tasks.
 * **Inheritance & Polymorphism:** Utilized for managing different user roles (Admin, Guest, User) with shared base attributes and specialized behaviors.
 
----
 
 
-
-# Run the application
-java Main
