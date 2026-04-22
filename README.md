@@ -1,8 +1,7 @@
 # 🍽️ Restaurant Management System
-> A clean, modular Java implementation for managing restaurant operations, developed with modern Software Engineering principles.
+> A clean, modular Java implementation for managing restaurant operations, developed with a strong focus on Object-Oriented Design.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Software Engineering](https://img.shields.io/badge/Project-Software_Engineering-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
@@ -30,9 +29,24 @@ Each member focused on a specific domain of the system to ensure specialized dev
 
 ---
 
-## 🛠️ Tech Stack & Concepts
-* **Language:** Java (JDK 17+)
-* **Concepts:** Object-Oriented Programming (OOP), Data Abstraction, Encapsulation.
-* **Documentation:** UML Diagram Based Architecture.
+## 🛠️ Core OOP Implementation
+The system strictly adheres to **Object-Oriented Programming** principles to ensure code reusability and scalability:
+
+* **Encapsulation:** All entity data (Users, Meals, Tables) are protected using private fields and accessed via secure Getters/Setters.
+* **Abstraction:** Complex internal logic is hidden behind simplified interfaces for handling reservations and administrative tasks.
+* **Inheritance & Polymorphism:** Utilized for managing different user roles (Admin, Guest, User) with shared base attributes and specialized behaviors.
 
 ---
+
+```bash
+# Clone the repository
+git clone [https://github.com/YourUsername/Restaurant-System.git](https://github.com/YourUsername/Restaurant-System.git)
+
+# Navigate to the project directory
+cd Restaurant-System
+
+# Compile the source code
+javac Main.java
+
+# Run the application
+java Main
